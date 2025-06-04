@@ -117,7 +117,7 @@ setup(
     # installed, specify them here.  If using Python 2.6 or less, then these
     # have to be included in MANIFEST.in as well.
     package_data={
-        'pyviscosity': ['group_data.csv'],
+        'pyviscosity': ['group_data.csv','joback.1.csv','joback.2.csv','joback.3.csv','joback.4.csv','joback.equivalence.csv'],
     },
 
     # Although 'package_data' is the preferred approach, in some case you may
