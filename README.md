@@ -3,7 +3,7 @@
 This repo contains a tool to predict shear viscosities directly from input CAS numbers or SMILES strings. Using RDKit and NumPy, it assigns functional groups via chemical logic (e.g. distinguishing alcohols, ethers, amides) to obtain Hsu/Joback group contributions and estimate viscosities, providing a practical cheminformatics tool for benchmarking molecular dynamics simulations when experimental data are sparse.
 
 
-# example usage 
+# Example usage 
 ```python
 from pyviscosity import Molecule
 from rdkit import Chem
